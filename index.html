@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/png" href="image/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">The God Plan is Beautifull</span>
+        </div>
+        
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">Job</span>
+        </div>
+
+        <!-- Button -->
+        <div class="button-container">
+            <button class="x-button" id="x" title="Share on X">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+                </svg>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <!-- script -->
+    <script src="quotes.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
